@@ -30,6 +30,9 @@
       }
     }
     & .icon-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       position: relative;
       width: 160px; 
       height: 92.38px;
