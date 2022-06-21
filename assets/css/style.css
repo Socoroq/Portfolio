@@ -127,7 +127,7 @@ img {
 }
 
 .navigation .navigation-menu .nav-link {
-  color: #fff;
+  color: #fff !important;
   padding: 20px !important;
 }
 
