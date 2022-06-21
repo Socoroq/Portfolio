@@ -1,0 +1,48 @@
+
+.hero-area {
+  background: $bg-dark-hard;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-attachment: fixed;
+  padding: 100px 0;
+
+  &  .block {
+    position: relative;
+    z-index: 1;
+      
+    h1 {
+      color: $light;
+      text-transform: capitalize;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: $light;
+      font-size: 20px;
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+
+  & .btn-transparent {
+    margin-top: 40px;
+    border-color: #fff;
+    padding: 14px 50px;
+    @include adaptive-value("font-size", 18, 12, 0);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $light;
+    border: 1px solid #4e595f;
+    &:hover,
+    &:focus {
+      background-color: $primary-color;
+      border-color: $primary-color !important;
+      color: $white;
+    }
+}
+}

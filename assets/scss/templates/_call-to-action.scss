@@ -1,0 +1,31 @@
+
+/*=================================================================
+ Call To Action 1
+==================================================================*/
+
+.call-to-action {
+    padding: 50px 0;
+    background: $bg-dark-lite !important;
+    background-size: cover;
+    color: $light;
+    h2 {
+        line-height: 1.2;
+        font-weight: 700;
+        color:rgb(255, 255, 255);
+    }
+    p {
+      font-size:16px;
+      line-height: 1.2;
+      color:rgb(255, 255, 255);
+    }
+    .btn-main {
+        background: #57cbcc;
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 35px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+  }

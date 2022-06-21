@@ -1,0 +1,24 @@
+
+
+@import '_null';
+@import '_color';
+@import '_mixins';
+@import '_wrapper';
+@import '_common';
+@import 'templates/_navigation';
+@import 'templates/_hero-area';
+@import 'templates/_about_us';
+@import 'templates/_call-to-action';
+@import 'templates/_contact';
+@import 'templates/_counter';
+@import 'templates/_pricing';
+@import 'templates/_portfolio';
+@import 'templates/_services';
+@import 'templates/_team';
+@import 'templates/_footer';
+@import '_media';
+
+
+.form-control {
+    box-shadow: none !important;
+  }

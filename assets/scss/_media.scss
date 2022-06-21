@@ -1,0 +1,48 @@
+// * media styles
+@media (max-width: 1199px) {
+    .hero-area {
+        & .btn-transparent {
+            padding: 10px 40px;
+        }
+    }
+    .portfolio {
+        & .search-icon {
+        width: 40px;
+        height: 40px;
+        }  
+    }
+
+}
+@media (max-width: 1024px) {
+    .hero-area {
+        & .btn-transparent {
+            padding: 8px 40px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .hero-area {
+        & .btn-transparent {
+            padding: 5px 30px;
+        }
+    }
+    .portfolio {
+        & .search-icon {
+        width: 30px;
+        height: 30px;
+        }  
+    }
+}
+@media (max-width: 425px) {
+    .hero-area {
+        & .btn-transparent {
+            padding: 5px 20px;
+        }
+    }
+}
+@media (max-width: 375px) {
+   
+}
+@media (max-width: 320px) {
+    
+}

@@ -1,0 +1,132 @@
+// =================================================================
+  // Contact
+// ==================================================================
+.contact-us {
+  box-shadow: none;
+    padding-bottom: 50px;
+    background: $bg-dark-hard;
+    color: $white;
+    & .contact-info {
+        h3 {
+            font-weight: 400;
+            font-family: "Quattrocento Sans", sans-serif;
+        }
+
+        p {
+            font-weight: 200;
+            font-size: 15px;
+            font-family: "Quattrocento Sans", sans-serif;
+            color: $light;
+            line-height: 1.5;
+        }
+    }
+  }
+  .contact-form {
+    margin-bottom: 60px;
+    & input {
+        background: none;
+        &::placeholder {
+            opacity: 1; 
+            transition: opacity 0.3s ease;
+            color: $white !important;
+        }
+        &:focus {
+          &::placeholder {
+              color:transparent;
+              opacity: 0.1; 
+              transition: opacity 0.3s ease;
+            }
+          }
+    }
+
+    & textarea {
+        background: none;
+        &::placeholder {
+          opacity: 1; 
+          transition: opacity 0.3s ease;
+          color: $white !important;
+        }
+        &:focus {
+          &::placeholder {
+              color:transparent;
+              opacity: 0.1; 
+              transition: opacity 0.3s ease;
+            }
+          }
+    }
+    .form-control {
+      background-color: transparent;
+      border: 1px solid $border-color;
+      height: 45px;
+    }
+    textarea.form-control {
+      padding: 10px;
+      height: 120px;
+    }
+  }
+  
+  .contact-form input:hover, 
+  .contact-form textarea:hover,
+  #contact-submit:hover {
+      border-color: $primary-color;
+      
+  }
+  
+  #contact-submit {
+    border: 1px solid $border-color;
+    background: $primary-color;
+    padding: 15px 0 !important;
+    width: 100%;
+    margin: 0;
+    color: $white;
+    font-size: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 25px;
+  }
+  
+  .con-info {
+        display: flex;
+        justify-content: flex-start;
+        color: $light;
+        margin-bottom: 20px;
+        font-style: 16px;
+        & span {
+          margin-left: 10px;
+        }
+        & a {
+          text-decoration: none;
+          color: $white;
+          &:hover {
+            color: $primary-color;
+          }
+          & span {
+            margin-left: 10px;
+          }
+        }
+  }
+  
+  .error {
+      display: none;
+      padding: 10px;
+      color: #D8000C; 
+      border-radius: 4px;
+      font-size: 13px;
+      background-color: #FFBABA;
+  }
+  
+  .success {
+      background-color: #6cb670;
+      border-radius: 4px;
+      color: #fff;
+      display: none;
+      font-size: 13px;
+      padding: 10px;
+  }
+  
+
+  .form-control {
+  margin-bottom: 15px;
+}
+

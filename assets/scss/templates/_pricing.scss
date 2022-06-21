@@ -1,0 +1,76 @@
+/*=================================================================
+  Pricing section
+==================================================================*/
+.pricing {
+    background: $bg-dark;
+    padding-bottom: 50px;
+}
+
+.price-item {
+    border:1px solid $border-color;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+
+    & ul {
+        color: $white;
+        padding: 0 !important;
+        font-size: 20px;
+    }
+
+    & .btn-transparent {
+        background-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 35px;
+        border-radius: 0;
+        transition: all .3s ease-in 0s;
+        border: 1px solid #4e595f;
+        border: 1px solid #4e595f;
+        &:hover,
+        &:focus {
+            background-color: $primary-color;
+            border-color: $primary-color !important;
+            color: $white;
+        }
+    }
+}
+
+.price-title {
+  background-color: $bg-dark-lite;
+  padding: 30px 0 20px;
+  color: $white;
+    h3 {
+        color: $primary-color;
+        margin: 0 0 10px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .value {
+        color: $primary-color;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+.pricing li {
+    padding: 10px 0;
+    &:last-child {
+        border-bottom: 1px solid $border-color;
+        margin-bottom:20px;
+    }
+    &:nth-child(2n) {
+        background-color: $bg-dark-lite;
+        width: 100%;
+    }
+}
+
+
+
+

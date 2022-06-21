@@ -1,0 +1,30 @@
+.counter {
+    background: $bg-dark;
+    padding: 50px 0 30px 0;
+    & .counters-item {
+        background: $bg-dark-lite;
+        color: $white;
+        text-align: center;
+        min-height: 100%;
+        max-height: 100%;
+        padding:25px 30px;
+        border: 1px solid rgba(236, 239, 241, 0.07);
+        & .bi {
+          margin-bottom: 20px;
+          width: 30px;
+          height: 30px;
+        }
+        span {
+          display: block;
+          font-weight: bold;
+          font-size: 35px;
+          line-height: 50px;
+        }
+        h3 {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+      
+      
+      }
+}
