@@ -1,13 +1,16 @@
 .navigation {
+    width: 100%;
     background-color: $bg-dark;
-    position: fixed;
+    position: sticky;
     top: 0;
     padding: 10px 0;
+    right: 0;
     color: $white;
     z-index: 2;
     & .navigation-menu {
         font-size: 18px !important;
-         
+         display: flex;
+         justify-content: flex-end;
         & .nav-link {
             color: $white !important;
             padding: 20px !important;

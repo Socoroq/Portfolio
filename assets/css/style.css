@@ -113,16 +113,25 @@ img {
 }
 
 .navigation {
+  width: 100%;
   background-color: #20232A;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   padding: 10px 0;
+  right: 0;
   color: #fff;
   z-index: 2;
 }
 
 .navigation .navigation-menu {
   font-size: 18px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .navigation .navigation-menu .nav-link {
