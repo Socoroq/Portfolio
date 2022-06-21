@@ -114,8 +114,7 @@ img {
 
 .navigation {
   background-color: #20232A;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   padding: 10px 0;
   color: #fff;
